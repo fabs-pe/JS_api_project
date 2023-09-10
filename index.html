@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Random Game</title>
+</head>
+<body>
+
+    <header>
+        <h1> Press A Button And See Who You Get!!</h1>
+    </header>
+    <div class="switch">
+            <button onclick="getRandomMarvel(), changeCSSTheme('light')">Marvel</button>
+            <button onclick="getRandomDisney(), changeCSSTheme('light')">Disney</button>
+            <button onclick="getHulk(), changeCSSTheme('dark')">Hulk</button>
+            <button onclick="getSM(), changeCSSTheme('red')">SpiderMan</button>
+        </div>
+        <br />
+        <div class="image">
+            <img id="disneyImage" />
+        </div>
+
+
+    <script src="./theme.js"></script>
+    <script src="./hulk.js"></script>
+    <script src="./disney.js"></script>
+    <script src="./marvel.js"></script>
+    <script src="./spiderMan.js"></script>
+
+<body>
+    
+</body>
+</html>
