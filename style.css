@@ -19,6 +19,8 @@ h1{
 
 button{
     width: 20dvh;
+    margin-right: 7px;
+    margin-top: 7px;
 }
 .switch{
     display: flex;
@@ -27,7 +29,6 @@ button{
     width: 99%;
     margin: 0;
     height: 10dvh;
-    padding: 1%;
 }
 .image{
     display: flex;
